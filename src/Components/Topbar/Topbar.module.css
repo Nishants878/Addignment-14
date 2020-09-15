@@ -17,6 +17,8 @@
 .PageNavigationWrapper{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
 }
 .ProductDetailName{
     text-transform: uppercase;
@@ -25,11 +27,33 @@
     color: #fff;
 }
 .IconAndLinkWrapper{
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .Icons{
     color: #fff;
-    padding-left: 5px;
+    padding-left: 18px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.Icons:hover{
+    color:#f5a623;
+}
+.PageLinkName:hover{
+    color:#f5a623;
+}
+
+.PageLinkName{
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;    
+}
+.AccountNameAndLogout{
+    color: #fff;
+    font-weight: 100;
+}
+.AccountNameAndLogout:hover{
+    color: #f5a623;
+    cursor: pointer;
 }

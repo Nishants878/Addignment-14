@@ -1,0 +1,69 @@
+.MainContainer{
+    width: 65%;
+    margin-left: 10px;
+}
+.InnerWrapper{
+    box-shadow: 2px 2px 2px #435C70;
+    background-color: #435C70;
+    border-radius: 4px;
+    padding: 15px 30px;
+}
+.AccountSettingsHeader{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+.FormWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.InputBox{
+    outline: none;
+    background-color: #54657D;
+    color: #fff;
+    width: 256px;
+    height: 34px;
+    border: 1px solid #435C70;
+    padding: 10px;
+}
+.Label{
+    color: #fff;
+}
+.UpdateButton{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+  background-color: #F5A623;
+  outline: none;
+  border: 2px solid #F5A623;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 50px;
+  padding-top: 12px;
+  padding-left: 50px;
+}
+.UpdateButton:hover{
+    background-color: transparent;
+    color: #F5A623;
+    
+}
+.DeleteWrapper{
+    width: 100%;
+    height: 50px;
+    background-color: #F5A623;
+    outline: none;
+    border: 2px solid #F5A623;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+}
+.DeleteWrapper:hover{
+    background-color: transparent;
+    color: #F5A623;
+    
+}

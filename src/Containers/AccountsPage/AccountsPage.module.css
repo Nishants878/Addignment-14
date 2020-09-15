@@ -1,0 +1,6 @@
+.LowerBoundFlexContainer{
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    justify-content: space-between;
+}

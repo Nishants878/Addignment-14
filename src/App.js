@@ -2,6 +2,8 @@ import React from 'react';
 import classes from './App.module.css';
 import axios from 'axios';
 import AccountsPage from './Containers/AccountsPage/AccountsPage'
+import Topbar from './Components/Topbar/Topbar';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -13,6 +15,8 @@ componentDidMount(){
 
   .then(response =>{
     console.log(response.data);
+
+  //  localStorage.setItem("...response.data");
     
 })
 .catch(err =>{
@@ -23,7 +27,9 @@ componentDidMount(){
 render(){
   return(
     <div className={classes.MainContainer}>
+      <Topbar/>
         <AccountsPage/>
+        <Footer/>
     </div>
   )
 }
