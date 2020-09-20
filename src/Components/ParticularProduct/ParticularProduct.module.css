@@ -1,0 +1,62 @@
+.ParticularProductWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #50697F;
+    transition: all 0.2s ease;
+    margin-bottom: 1px;
+    cursor: pointer;
+    height: 69px;
+}
+.ParticularProductWrapper:hover{
+    background-color: #486177;
+}
+.Checkbox{
+    margin-left: 12px;
+}
+.DeleteIconWrapper{
+    padding: 3px;
+    text-align: center;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #394E64;
+}
+.Icons{
+    margin-top: 6px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.Icons:hover{
+    margin-top: 5px;
+    color: #50697F;
+}
+.WhiteFontName{
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.97rem;
+}
+.Checkbox{
+    appearance: none;
+    background-color: #394e64;
+    background-position: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box;
+    width: 24px;
+    height: 24px;
+    transition: all 0.1s linear;
+    cursor: pointer;
+    outline: none;
+}
+
+
+input[type="checkbox"]:checked {
+    background-image: url("https://templatemo.com/templates/templatemo_524_product_admin/img/check-mark.png");
+    background-position: center;
+    background-color: #394e64;
+    background-repeat: no-repeat;
+}

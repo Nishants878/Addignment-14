@@ -1,0 +1,192 @@
+.AddProductPageMainContainer{
+    background-color: #4E657A;
+    
+}
+.InnerMainWrapper{
+    margin-top: 20px;
+    width: 770px;
+    
+   
+    background-color: #435C70;
+    padding: 20px 45px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 23%;
+}
+.AddProductTitle{
+    color: #fff;
+    letter-spacing: 0rem;
+    font-size: 1.1rem;
+}
+.FormFlexWrapper{
+    display: flex;
+    flex-direction: row;
+}
+.FormLeftWrapper{
+    width: 50%;
+    margin-right: 8px;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.FormRightWrapper{
+    width: 50%;
+    margin-left: 20px;
+   
+}
+.Label{
+    color: #fff;
+    margin-bottom: 10px;
+ 
+}
+
+.InputValue{
+    width: 98%;
+    height: 45px;
+    border: 1px solid #435C70;
+    margin-top: 10px;
+    outline: none;
+    background-color: #54657D;
+    color: #fff;
+}
+.TextArea{
+    
+    width: 98%;
+    height: 110px;
+    outline: none;
+    border: 1px solid #435C70;
+    outline: none;
+    background-color: #54657D;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .LabelAndInputWrapper{
+      margin-top: 15px;
+      width: 100%;
+  }
+  .SelectBox{
+    width: 100%;
+    height: 45px;
+    border: 2px solid #435C70;
+    outline: none;
+    background-color: #50657B;
+    color: #7CB4DE;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.SelectBox:focus{
+    border: 3px solid #7CB4DE;
+}
+.MiniFlexWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DateWrapper{
+    width: 50%;
+}
+.StocksWrapper{
+    width: 50%;
+}
+.InputForDate{
+    
+    width: 90%;
+    height: 45px;
+    border: 1px solid #435C70;
+    outline: none;
+    background-color: #54657D;
+    color: #7CB4DE;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+.InputForNumber{
+    width: 90%;
+    height: 45px;
+    border: 1px solid #435C70;
+    outline: none;
+    background-color: #54657D;
+    color: #7CB4DE;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+.StocksWrapper{
+    margin-left: 12px;
+}
+.UploadIconWrapper{
+    position: absolute;
+    left: 40%;
+    top: 42%;
+    z-index: 1000;
+    padding: 3px;
+    text-align: center;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(57, 78, 100, 0.7);
+}
+.DummyPictureArea{
+    position: relative;
+    height: 240px;
+    color: #fff;
+    background: #aaa;
+    max-width: 100%;
+}
+.Icons{
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+.FileUnloader{
+    width: 5px;
+    z-index: -5;
+}
+.InputForFile{
+    display: none;
+}
+.UploadProductImageButton{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  background-color: #F5A623;
+  outline: none;
+  border: 2px solid #F5A623;
+  width: 100%;;
+  margin-top: 15px;
+  height: 50px;
+  cursor: pointer;
+}
+.UploadProductImageButton:hover{
+    background-color: transparent;
+    color: #F5A623;
+}
+.UploadProductButton:hover{
+    background-color: transparent;
+    color: #F5A623;
+}
+.UploadProductButton{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  background-color: #F5A623;
+  outline: none;
+  border: 2px solid #F5A623;
+  width: 100%;;
+  margin-top: 15px;
+  height: 50px;
+  cursor: pointer;
+}
+.Error {
+   
+  color:#b30000
+  ;
+  font-size: 1rem;
+  }

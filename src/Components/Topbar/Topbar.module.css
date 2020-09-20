@@ -29,6 +29,7 @@
 .IconAndLinkWrapper{
     padding-left: 35px;
     padding-right: 35px;
+    text-decoration: none;
 }
 
 .Icons{
@@ -45,6 +46,7 @@
 }
 
 .PageLinkName{
+    
     color: #fff;
     font-size: 1rem;
     cursor: pointer;    
@@ -56,4 +58,7 @@
 .AccountNameAndLogout:hover{
     color: #f5a623;
     cursor: pointer;
+}
+.LogoutWrapper{
+    text-decoration: none;
 }

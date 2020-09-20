@@ -1,0 +1,25 @@
+.IndividualBar{
+    padding: 15px;
+    background-color: #4e657a;
+    color: #fff;
+    display: flex;
+    margin-bottom: 15px;
+}
+.ImageWrapperBar{
+    width: 80px;
+    height: 80px;
+    
+    position: relative;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.ProfileImage{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+   
+}
+.TimeSpan{
+    color: #bdcbd8;
+    font-size: 0.8rem;
+}

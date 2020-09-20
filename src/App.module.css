@@ -6,6 +6,19 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #394F62;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #6D8DA6;
+    
+  }
+  
 
 .MainContainer{
     width: 100%;

@@ -1,0 +1,226 @@
+.MainContainerProductPage{
+    background-color: #4E657A;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+/* //product wrapper section */
+
+
+
+
+.MainContainerProductWrapper{
+    background-color:#435C70;
+    width: 736.66px;
+    -webkit-box-shadow: 1px 1px 5px 0 #455c71;
+    -moz-box-shadow: 1px 1px 5px 0 #455c71;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    height: 100vh;
+    padding: 40px;
+    height: 100%;
+}
+.InnerWrapperScroll{
+    max-height: 465px;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+}
+.DescriptionDetailsWrapper{
+    display: flex;
+    flex-direction: row;
+   
+    background-color: #486177;
+    padding: 2px;
+}
+.HeaderTop{
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+.NameHeaderDiv{
+    margin-left: 75px;
+}
+.StocksHeaderDiv{
+    margin-left: 20px;
+}
+.UnitHeaderDiv{
+    margin-left:  11px;;
+}
+.DateHeaderDiv{
+    margin-left: 43px;
+}
+.Checkbox{
+    appearance: none;
+    background-color: #394e64;
+    background-position: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box;
+    width: 24px;
+    height: 24px;
+    transition: all 0.1s linear;
+    cursor: pointer;
+    outline: none;
+}
+
+
+input[type="checkbox"]:checked {
+    background-image: url("https://templatemo.com/templates/templatemo_524_product_admin/img/check-mark.png");
+    background-position: center;
+    background-color: #394e64;
+    background-repeat: no-repeat;
+}
+.ParticularProductWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #50697F;
+    transition: all 0.2s ease;
+    margin-bottom: 1px;
+    cursor: pointer;
+    height: 69px;
+}
+.ParticularProductWrapper:hover{
+    background-color: #486177;
+}
+.Checkbox{
+    margin-left: 12px;
+}
+.DeleteIconWrapper{
+    padding: 3px;
+    text-align: center;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #394E64;
+}
+.ProductFlexWrapper{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Icons{
+    margin-top: 6px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.Icons:hover{
+    margin-top: 5px;
+    color: #50697F;
+}
+.WhiteFontName{
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.97rem;
+}
+.AddNewButton{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  background-color: #F5A623;
+  outline: none;
+  border: 2px solid #F5A623;
+  width: 100%;
+  margin-top: 15px;
+  
+  height: 50px;
+  cursor: pointer;
+}
+.AddNewButton:hover{
+    background-color: transparent;
+    color: #F5A623;
+}
+.DeleteButton{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  background-color: #F5A623;
+  outline: none;
+  border: 2px solid #F5A623;
+  width: 100%;
+  margin-top: 15px;
+  
+  height: 50px;
+  cursor: pointer;
+}
+.DeleteButton:hover{
+    background-color: transparent;
+    color: #F5A623;
+}
+
+
+/* content wrapper stying */
+
+.MainContainerCategory{
+    background-color: #435C70;
+    width: 353px;
+    height: 650px;
+    margin-left: 30px;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 5px 0 #455c71;
+    -moz-box-shadow: 1px 1px 5px 0 #455c71;
+    box-shadow: 1px 1px 5px 0 #455c71;
+}
+.InnerCategoryScrollWrapper{
+    max-height: 465px;
+margin-bottom: 15px;
+overflow-y: scroll;
+}
+.CategoryContentWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 69px;
+    background-color: #50697F;
+    margin-bottom: 1px;
+}
+
+.Icons{
+    margin-top: 6px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.Icons:hover{
+    margin-top: 5px;
+    color: #50697F;
+}
+.DeleteIconWrapper{
+    padding: 3px;
+    text-align: center;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #394E64;
+}
+.HeaderWrapper{
+    margin-left: 15px;
+}
+.NameHeader{
+    color: #fff;
+    font-weight: 600;
+}
+.NewCategoryButton{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  background-color: #F5A623;
+  outline: none;
+  border: 2px solid #F5A623;
+  width: 100%;
+  margin-top: 15px;
+  
+  height: 50px;
+  cursor: pointer;
+}
+.NewCategoryButton:hover{
+    background-color: transparent;
+    color: #F5A623;
+}

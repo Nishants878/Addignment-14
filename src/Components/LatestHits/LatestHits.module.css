@@ -1,0 +1,19 @@
+.MainContainerLatestHits{
+    width: 550px;
+    height: 362.2px;
+    background-color: #435C70;
+    padding: 30px;
+    -webkit-box-shadow: 1px 1px 5px 0 #455c71;
+    -moz-box-shadow: 1px 1px 5px 0 #455c71;
+    box-shadow: 1px 1px 5px 0 #455c71;
+}
+.LatestHeader{
+    color: #fff;
+    font-weight: 600;
+}
+
+.HitsCharts{
+    position: relative;
+    width: 100%;
+    
+}

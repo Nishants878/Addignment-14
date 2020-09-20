@@ -1,169 +1,64 @@
-.LowerBoundFlexContainer{
-    display: flex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Accounts dropdown bar */
+.MainContainerAccountsBar{
+    background-color: #435C70;
+    margin-top: 5%;
+    margin-bottom: 3%;
     margin-left: 13%;
     margin-right: 13%;
-    justify-content: space-between;
-}
-.MainsContainer{
-    width: 35%;
-}
-.InnersWrapper{
-    box-shadow: 2px 2px 2px #435C70;
-    background-color: #435C70;
+    -webkit-box-shadow: 1px 1px 5px 0 #455c71;
+    -moz-box-shadow: 1px 1px 5px 0 #455c71;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    padding: 40px 30px;
     border-radius: 4px;
-    padding: 15px 30px;
 }
-.AvatarHeader{
-    color: #fff;
-    margin-left: 15px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 0;
-}
-.AvatarImage{
+.SelectBox{
     width: 100%;
-    min-width: 300px;
+    height: 45px;
+    border: 2px solid #435C70;
 }
-.ImageWrapper{
-    width: 300px;
-    margin-left: 15px;
-    position: relative;
+.SelectBox:focus{
+    border: 4px solid #7CB4DE;
 }
-.DeleteIconWrapper{
-    position: absolute;
-    left: 36%;
-    top: 42%;
-    z-index: 1000;
-    padding: 3px;
-    text-align: center;
-    transition: all 0.2s ease;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: rgba(57, 78, 100, 0.7);
-    display: none;
-   
-}
-.Icons{
-    margin-top: 15px;
-}
-
-.UploadButton{
-    font-size: 1.2rem;
+h4{
+    color: #fff;
     font-weight: 600;
-    color: #fff;
-  background-color: #F5A623;
-  outline: none;
-  border: 2px solid #F5A623;
-  width: 300px;
-  margin-top: 25px;
-  margin-left: 15px;
-  height: 50px;
-  cursor: pointer;
-}
-.UploadButton:hover{
-    background-color: transparent;
-    color: #F5A623;
-}
-.HiddenAlways{
-    display: none;
-}
-.CrossIcons{
-    position: absolute;
-    top: -2%;
-    left: 97%;
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-.HiddenUploadTab{
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    height: 120px;
-    background-color: rgba(57, 78, 100, 0.9) ;
-}
-.pictureUpload{
-    margin-top: 30px;
-    margin-left: 15px;
-    color: #fff;
-}
-
-
-
-
-
-
-
-
-
-.MainContainerSetting{
-    width: 65%;
-    margin-left: 10px;
-}
-.InnerWrapperSetting{
-    box-shadow: 2px 2px 2px #435C70;
-    background-color: #435C70;
-    border-radius: 4px;
-    padding: 15px 30px;
-}
-.AccountSettingsHeader{
-    color: #fff;
-    font-weight: 300;
     font-size: 1.2rem;
-    margin-bottom: 12px;
+    margin-bottom: 35px;
+    margin-left: 2px;
 }
-.FormWrapper{
-    display: flex;
-    justify-content: space-between;
+.AccountsIndicator{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    letter-spacing: 1px;
 }
-.InputBox{
+.SelectBox{
     outline: none;
-    background-color: #54657D;
-    color: #fff;
-    width: 256px;
-    height: 34px;
-    border: 1px solid #435C70;
-    padding: 10px;
-}
-.Label{
-    color: #fff;
-}
-.UpdateButton{
-    display: flex;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #fff;
-  background-color: #F5A623;
-  outline: none;
-  border: 2px solid #F5A623;
-  width: 300px;
-  height: 50px;
-  cursor: pointer;
-  margin-top: 50px;
-  padding-top: 12px;
-  padding-left: 50px;
-}
-.UpdateButton:hover{
-    background-color: transparent;
-    color: #F5A623;
-    
-}
-.DeleteWrapper{
-    width: 100%;
-    height: 50px;
-    background-color: #F5A623;
-    outline: none;
-    border: 2px solid #F5A623;
-    cursor: pointer;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #fff;
-    margin-top: 20px;
-}
-.DeleteWrapper:hover{
-    background-color: transparent;
-    color: #F5A623;
-    
+    background-color: #50657B;
+    color: #7CB4DE;
+    font-size: 1rem;
+    letter-spacing: 1px;
 }

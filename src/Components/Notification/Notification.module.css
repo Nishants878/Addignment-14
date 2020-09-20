@@ -1,0 +1,43 @@
+.MainContainerNotification{
+    width: 550px;
+    height: 362.2px;
+    background-color: #435C70;
+    padding: 30px;
+    margin-left: 34px;
+    -webkit-box-shadow: 1px 1px 5px 0 #455c71;
+    -moz-box-shadow: 1px 1px 5px 0 #455c71;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    
+    
+}
+.NotificationHeader{
+    color: #fff;
+    font-weight: 600;
+}
+.NotificationScrollWrapper{
+    overflow-y: scroll;
+    height: 90%;
+    
+}
+.IndividualBar{
+    padding: 15px;
+    background-color: #4e657a;
+    color: #fff;
+    display: flex;
+    margin-bottom: 15px;
+}
+.ImageWrapperBar{
+    width: 80px;
+    height: 80px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.ProfileImage{
+    
+    border-radius: 50%!important;
+}
+.TimeSpan{
+    color: #bdcbd8;
+    font-size: 0.8rem;
+}

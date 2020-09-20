@@ -1,0 +1,21 @@
+.OrderBarMegaWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.MainOrderContentWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #50697F;
+    margin-bottom: 1px;
+    
+}
+.OrdersContentHeader{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}

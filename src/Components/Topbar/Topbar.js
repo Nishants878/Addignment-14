@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Topbar.module.css'
-
+import {Link} from 'react-router-dom';
 class Topbar extends React.Component{
 
 
@@ -13,25 +13,25 @@ class Topbar extends React.Component{
                   </div>
 
                   <div className={classes.PageNavigationWrapper}>
-                    <div className={classes.IconAndLinkWrapper}>
+                    <Link className={classes.IconAndLinkWrapper} to="/dashboardpage">
                     <i className={["fas", "fa-tachometer-alt", classes.Icons].join(' ')}></i>  
                     <p className={classes.PageLinkName}>Dashboard</p>
-                    </div>
+                    </Link>
 
-                    <div className={classes.IconAndLinkWrapper}>
+                    <Link className={classes.IconAndLinkWrapper} to="/productpage">
                     <i className={["fas", "fa-shopping-cart", classes.Icons].join(' ')}></i> 
                     <p className={classes.PageLinkName}>Products</p>
-                    </div>
+                    </Link>
 
-                    <div className={classes.IconAndLinkWrapper}>
+                    <Link className={classes.IconAndLinkWrapper} to="/accountspage">
                     <i className={["far", "fa-user", classes.Icons].join(' ')}></i> 
                     <p className={classes.PageLinkName}>Accounts</p>
-                    </div>
+                    </Link>
                   </div>
                  
-                  <div className={classes.LogoutWrapper}>
+                  <Link className={classes.LogoutWrapper} to="/">
                          <h3 className={classes.AccountNameAndLogout}>Admin,<strong className={classes.LogoutName}>Logout</strong></h3>
-                  </div>
+                  </Link>
 
               </div>
           </div>

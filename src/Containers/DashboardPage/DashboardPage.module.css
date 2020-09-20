@@ -1,0 +1,22 @@
+
+.DashboardMainContainer{
+    color: #fff;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.HitAndPerformanceWrapperFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.InfoAndNotifyWrapperFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.ListWrapperFlex{
+    margin-top: 25px;
+}
